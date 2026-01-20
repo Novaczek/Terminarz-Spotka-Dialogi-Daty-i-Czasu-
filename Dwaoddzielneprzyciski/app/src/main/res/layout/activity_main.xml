@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnDate"
+        android:text="ZMIEŃ DATĘ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnTime"
+        android:text="ZMIEŃ CZAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="Brak danych"/>
+</LinearLayout>
